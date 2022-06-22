@@ -1,0 +1,39 @@
+.App {
+  padding: 24px;
+  display: grid;
+  grid-auto-rows: row;
+  grid-row-gap: 16px;
+}
+.logo {
+  height: 24px;
+  content: url(logo.png);
+}
+.footer {
+  margin: 16px 0 8px 0;
+  font-size: 12px;
+  color: #808080;
+}
+.search button {
+  display: none;
+}
+.phases {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-column-gap: 12px;
+}
+.phases__info {
+  display: grid;
+  grid-template-rows: repeat(2, max-content);
+}
+.phases__info > div:first-child {
+  color: #00000073;
+  font-size: 12px;
+}
+.phases__info > div:nth-child(2) {
+  color: #000000d9;
+  font-size: 16px;
+}
+.phases__next {
+  font-size: 14px;
+}
